@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-shadow */
 /* eslint-disable react/button-has-type */
 
 'use client'
@@ -8,14 +10,9 @@ import { socket } from '../socket'
 export default function Button() {
   const [isConnected, setIsConnected] = useState(false)
   const [transport, setTransport] = useState('N/A')
-  const [content, setContent] = useState()
   const [responses, setResponses] = useState<string[]>([])
 
   useEffect(() => {
-    if (socket.connected) {
-      onConnect()
-    }
-
     function onConnect() {
       setIsConnected(true)
       setTransport(socket.io.engine.transport.name)
@@ -32,8 +29,10 @@ export default function Button() {
 
     function onResponse(data : string) {
       setResponses((prevResponses) => [...prevResponses, data])
-      console.log('data', data)
       console.table(responses)
+    }
+    if (socket.connected) {
+      onConnect()
     }
 
     socket.on('connect', onConnect)
@@ -92,7 +91,6 @@ export default function Button() {
 
         <button
           className="h-60 w-60 bg-neutral-500 text-6xl text-black font-bold"
-
           onClick={(e) => {
             e.stopPropagation()
             socket.emit('select', 'video2')
@@ -101,16 +99,6 @@ export default function Button() {
           Video 2
         </button>
       </div>
-      <p>
-        Response received
-        {
-          responses.map((response, index) => (
-            <span key={index}>
-              {response}
-            </span>
-          ))
-        }
-      </p>
 
     </div>
   )

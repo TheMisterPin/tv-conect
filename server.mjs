@@ -1,25 +1,3 @@
-// import { createServer } from 'http'
-// import { Server } from 'socket.io'
-
-// const httpServer = createServer()
-// const io = new Server(httpServer, {
-//   cors: {
-//     origin: '*',
-//     methods: ['GET', 'POST'],
-//   },
-// })
-
-// io.on('connection', (socket) => {
-//   console.log(socket.id)
-// })
-// io.on('message', (data) => {
-//   console.log(data)
-// })
-
-// httpServer.listen(5000, () => {
-//   console.log('Server is running on port 5000')
-// })
-
 import { createServer } from 'node:http'
 import next from 'next'
 import { Server } from 'socket.io'
@@ -37,9 +15,7 @@ app.prepare().then(() => {
   const io = new Server(httpServer)
 
   io.on('connection', (socket) => {
-    console.log(socket.id)
     socket.on('message', (data) => {
-      console.log(`sent ${data}`)
       if (data === 'play') {
         io.emit('messageResponse', 'play')
       }
@@ -49,8 +25,6 @@ app.prepare().then(() => {
     })
 
     socket.on('select', (data) => {
-      console.log(`sent ${data}`)
-
       io.emit('selectionResponse', data)
     })
   })

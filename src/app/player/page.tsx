@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/media-has-caption */
+/* eslint-disable react/button-has-type */
+
 'use client'
 
 import { useEffect, useState } from 'react'
@@ -8,7 +11,7 @@ function PlayerPage() {
   const [source, setSource] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   useEffect(() => {
-    function onResponse(data) {
+    function onResponse(data : string) {
       if (data === 'play') {
         setIsPlaying(true)
       } else if (data === 'pause') {
@@ -16,9 +19,8 @@ function PlayerPage() {
       }
     }
 
-    function onChange(data) {
+    function onChange(data : string) {
       setIsLoading(true)
-      console.log('data', data)
       if (data === 'video1') {
         setSource('video1.mp4')
       } else if (data === 'video2') {
@@ -36,15 +38,12 @@ function PlayerPage() {
     }
   }, [])
 
-  // Update the video source and handle autoplay
   useEffect(() => {
-    const video = document.getElementById('videoPlayer')
-    if (!video) return
+    const video = document.getElementById('videoPlayer') as HTMLVideoElement
 
-    video.src = source // Update the source
-    video.load() // Load the new video
+    video.src = source
+    video.load()
 
-    // Attempt to play the video if isPlaying is true
     if (isPlaying) {
       const promise = video.play()
       if (promise !== undefined) {
@@ -61,10 +60,6 @@ function PlayerPage() {
     <div>
       <button
         onClick={() => {
-          const video = document.getElementById('videoPlayer')
-          if (video.muted) {
-            video.muted = false // Unmute the video on user interaction
-          }
           setIsPlaying(!isPlaying)
         }}
       >
