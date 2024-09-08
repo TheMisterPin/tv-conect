@@ -1,3 +1,4 @@
+/* eslint-disable no-nested-ternary */
 /* eslint-disable jsx-a11y/media-has-caption */
 /* eslint-disable react/button-has-type */
 
@@ -10,8 +11,9 @@ function PlayerPage() {
   const [isPlaying, setIsPlaying] = useState(false)
   const [source, setSource] = useState('')
   const [isLoading, setIsLoading] = useState(false)
+
   useEffect(() => {
-    function onResponse(data : string) {
+    function onResponse(data: string) {
       if (data === 'play') {
         setIsPlaying(true)
       } else if (data === 'pause') {
@@ -19,12 +21,12 @@ function PlayerPage() {
       }
     }
 
-    function onChange(data : string) {
+    function onChange(data: string) {
       setIsLoading(true)
       if (data === 'video1') {
-        setSource('video1.mp4')
+        setSource('https://multiembed.mov/?video_id=tt8385148') // IMDB example
       } else if (data === 'video2') {
-        setSource('video2.mp4')
+        setSource('https://multiembed.mov/?video_id=522931&tmdb=1') // TMDB example
       }
       setIsLoading(false)
     }
@@ -38,24 +40,6 @@ function PlayerPage() {
     }
   }, [])
 
-  useEffect(() => {
-    const video = document.getElementById('videoPlayer') as HTMLVideoElement
-
-    video.src = source
-    video.load()
-
-    if (isPlaying) {
-      const promise = video.play()
-      if (promise !== undefined) {
-        promise.catch((err) => {
-          // Autoplay was prevented
-          console.error('Autoplay prevented', err)
-          setIsPlaying(false) // Update isPlaying state to false as fallback
-        })
-      }
-    }
-  }, [source, isPlaying])
-
   return (
     <div>
       <button
@@ -65,18 +49,22 @@ function PlayerPage() {
       >
         {isPlaying ? 'Pause Video' : 'Play Video'}
       </button>
-      {isLoading ? <div>is Loading </div>
-        : (
-          <video
+
+      {source ? (
+        isLoading ? (
+          <div>Loading...</div>
+        ) : (
+          <iframe
+            title={source}
             id="videoPlayer"
             src={source}
-            width="640"
-            height="360"
-            style={{ display: 'block' }}
-
+            style={{ display: 'block', width: '100%', height: '400px' }}
+            allowFullScreen
           />
-        )}
-
+        )
+      ) : (
+        <div>No video selected</div>
+      )}
     </div>
   )
 }

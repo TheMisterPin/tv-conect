@@ -69,7 +69,6 @@ export default function Button() {
 
         <button
           className="h-60 w-60 bg-neutral-500 text-6xl text-black font-bold"
-
           onClick={(e) => {
             e.stopPropagation()
             socket.emit('message', 'pause')

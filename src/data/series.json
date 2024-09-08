@@ -1,0 +1,418 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "/h0y3OzHzG4yNvn8u3Za6ByH8lrQ.jpg",
+        "genre_ids": [
+            18,
+            10766
+        ],
+        "id": 45789,
+        "origin_country": [
+            "DE"
+        ],
+        "original_language": "de",
+        "original_name": "Sturm der Liebe",
+        "overview": "These are the stories of relationships taking place in the fictional five-star hotel Fürstenhof, located in Feldkirchen-Westerham near Rosenheim with the plot revolving around members of the family room area, the hotel owners, and employees.",
+        "popularity": 5308.206,
+        "poster_path": "/9oZjOh3Va3FsiLGouhSogFsBX9G.jpg",
+        "first_air_date": "2005-09-26",
+        "name": "Sturm der Liebe",
+        "vote_average": 5.983,
+        "vote_count": 29
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/ottT2Yt0OfHiHp3PHJTLNVV8JPE.jpg",
+        "genre_ids": [
+            18,
+            10766
+        ],
+        "id": 13945,
+        "origin_country": [
+            "DE"
+        ],
+        "original_language": "de",
+        "original_name": "Gute Zeiten, schlechte Zeiten",
+        "overview": "Gute Zeiten, schlechte Zeiten is a long-running German television soap opera, first broadcast on RTL in 1992. The programme concerns the lives of a fictional neighborhood in Germany's capital city Berlin. Over the years the soap opera tends to have an overhaul of young people in their late teens and early twenties; targeting a young viewership.",
+        "popularity": 4843.915,
+        "poster_path": "/fNHBzjxsydcAssxXqb5IV2obDdU.jpg",
+        "first_air_date": "1992-05-11",
+        "name": "Gute Zeiten, schlechte Zeiten",
+        "vote_average": 5.833,
+        "vote_count": 30
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rVGhUYTdicAohn2mPbgNXuO5g0e.jpg",
+        "genre_ids": [
+            18,
+            35,
+            10766
+        ],
+        "id": 308,
+        "origin_country": [
+            "PT"
+        ],
+        "original_language": "pt",
+        "original_name": "Morangos com Açúcar",
+        "overview": "Morangos com Açúcar was a Portuguese Teen drama. It was broadcast daily on the Portuguese TV station TVI between 30 August 2003 to 15 September 2012. It has also been broadcast in Angola, Syria, Brazil and Romania.",
+        "popularity": 4619.056,
+        "poster_path": "/uyzx0JkWOOF3Mfcq4uiuIr2Ykju.jpg",
+        "first_air_date": "2003-08-30",
+        "name": "Strawberries with Sugar",
+        "vote_average": 5.385,
+        "vote_count": 13
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/uGbBFoxXNscnH9UZuF8v0ODrrve.jpg",
+        "genre_ids": [
+            10766
+        ],
+        "id": 14509,
+        "origin_country": [
+            "DE"
+        ],
+        "original_language": "de",
+        "original_name": "In aller Freundschaft",
+        "overview": "German soap opera about the staff of the fictional hospital \"Sachsenklinik\" in the city of Leipzig.",
+        "popularity": 4368.056,
+        "poster_path": "/f8ZHSXNs5jyjMz3qg7mB2fqnTjP.jpg",
+        "first_air_date": "1998-10-26",
+        "name": "In aller Freundschaft",
+        "vote_average": 7,
+        "vote_count": 5
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/dasgPx3OgkxHSQyncKlApfZkpi2.jpg",
+        "genre_ids": [
+            10767,
+            10763
+        ],
+        "id": 224,
+        "origin_country": [
+            "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Match of the Day",
+        "overview": "BBC's football highlights and analysis.\n\n\"The longest-running football television programme in the world\" as recognised by Guinness World Records in 2015.",
+        "popularity": 4321.843,
+        "poster_path": "/aA25JrHXj8ZPTJYj2iSIueyb34C.jpg",
+        "first_air_date": "1964-08-22",
+        "name": "Match of the Day",
+        "vote_average": 7.375,
+        "vote_count": 40
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/9daf0KXr3xUkMt2NCI0ZhDIZJEa.jpg",
+        "genre_ids": [
+            10766
+        ],
+        "id": 12415,
+        "origin_country": [
+            "ZA"
+        ],
+        "original_language": "af",
+        "original_name": "Egoli: Place of Gold",
+        "overview": "A South African television soap opera created by Franz Marx which revolves around the daily ups, downs, trials and tribulations of a handful of families in and around Johannesburg (which is often referred to as eGoli - the City of Gold)",
+        "popularity": 4138.177,
+        "poster_path": "/5X0SWyNJ5IjN9YSXlbHBOVMzh1G.jpg",
+        "first_air_date": "1992-04-06",
+        "name": "Egoli: Place of Gold",
+        "vote_average": 6.75,
+        "vote_count": 4
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18,
+            10751
+        ],
+        "id": 50821,
+        "origin_country": [
+            "HU"
+        ],
+        "original_language": "hu",
+        "original_name": "Barátok közt",
+        "overview": "",
+        "popularity": 4026.002,
+        "poster_path": "/mT6VFzwGPddwGjWGxzNOy4JVL8.jpg",
+        "first_air_date": "1998-10-26",
+        "name": "Barátok közt",
+        "vote_average": 4.6,
+        "vote_count": 8
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/nlLKuyFz6lI0KyiY1V1AE2GwGX9.jpg",
+        "genre_ids": [
+            35,
+            18,
+            10766
+        ],
+        "id": 32209,
+        "origin_country": [
+            "PE"
+        ],
+        "original_language": "es",
+        "original_name": "Al Fondo Hay Sitio",
+        "overview": "Al fondo hay sitio is a Peruvian TV series created in 2008-2009 by Efraín Aguilar. It deals with the problems of social differences and economic status. It's one of the most popular shows in Peru and is now being shown in Ecuador, Bolivia, Paraguay and Uruguay.",
+        "popularity": 4025.682,
+        "poster_path": "/g7cuCCkvoBuSwemTHYz3k0hvvmz.jpg",
+        "first_air_date": "2009-03-30",
+        "name": "Al Fondo Hay Sitio",
+        "vote_average": 7.856,
+        "vote_count": 209
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/3SWOj8ydFrxiuZdLg63fDAt4jYR.jpg",
+        "genre_ids": [
+            10764
+        ],
+        "id": 11366,
+        "origin_country": [
+            "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Big Brother",
+        "overview": "A British reality television game show in which a number of contestants live in an isolated house for several weeks, trying to avoid being evicted by the public with the aim of winning a large cash prize at the end of the run.",
+        "popularity": 3994.428,
+        "poster_path": "/p7lsmCU5ZqaMGKZAuZMkFc02X8o.jpg",
+        "first_air_date": "2000-07-18",
+        "name": "Big Brother",
+        "vote_average": 3.7,
+        "vote_count": 53
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/nG2im8JKKNB6dXg9ZmVTuiYqFJI.jpg",
+        "genre_ids": [
+            10766,
+            18
+        ],
+        "id": 14610,
+        "origin_country": [
+            "FI"
+        ],
+        "original_language": "fi",
+        "original_name": "Salatut elämät",
+        "overview": "Salatut elämät (Secret Lives) is a Finnish television soap opera that premiered on MTV3 on 25 January 1999. The series' storylines follow the daily lives of several families who live in the same apartment block in Helsinki.",
+        "popularity": 3902.767,
+        "poster_path": "/ugYAGyxwajuplDUUYT8Bzbj8eNR.jpg",
+        "first_air_date": "1999-01-25",
+        "name": "Secret Lives",
+        "vote_average": 4.8,
+        "vote_count": 15
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/92cc2hINaW72HTA0RqQaqPUbl4g.jpg",
+        "genre_ids": [
+            16,
+            35,
+            10767
+        ],
+        "id": 46825,
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_name": "Rooster Teeth Animated Adventures",
+        "overview": "The animated shenanigans of the Rooster Teeth staff. Audio taken from the Rooster Teeth Podcast.",
+        "popularity": 3878.498,
+        "poster_path": "/xrcOsjmuBcmf1YhqyQ6qrGCcsvE.jpg",
+        "first_air_date": "2011-09-28",
+        "name": "Rooster Teeth Animated Adventures",
+        "vote_average": 8.6,
+        "vote_count": 5
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/sHG0x2Vq0tuvkgFRLUDq8vVJreU.jpg",
+        "genre_ids": [
+            10766
+        ],
+        "id": 236443,
+        "origin_country": [
+            "ZA"
+        ],
+        "original_language": "af",
+        "original_name": "Getroud met Rugby: Die Sepie",
+        "overview": "Getroud met Rugby: Die Sepie is a South African soap opera based on the feature film and later drama series Getroud met Rugby by Deon Opperman, which is set amongst a rugby-playing community.",
+        "popularity": 3756.804,
+        "poster_path": "/sBp8JBN38AanXyuX4yT3SDuoieY.jpg",
+        "first_air_date": "2016-04-04",
+        "name": "Getroud met Rugby: Die Sepie",
+        "vote_average": 6,
+        "vote_count": 1
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/3u5b6Zy3EKQX0ALvg1uBC7wd1Jw.jpg",
+        "genre_ids": [
+            35,
+            10767
+        ],
+        "id": 4419,
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_name": "Real Time with Bill Maher",
+        "overview": "Each week Bill Maher surrounds himself with a panel of guests which include politicians, actors, comedians, musicians and the like to discuss what's going on in the world.",
+        "popularity": 3694.955,
+        "poster_path": "/pbpoLLp4kvnYVfnEGiEhagpJuVZ.jpg",
+        "first_air_date": "2003-02-21",
+        "name": "Real Time with Bill Maher",
+        "vote_average": 6.013,
+        "vote_count": 200
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/lvgsNKgf6wMItoPCJMliFNUB0Yp.jpg",
+        "genre_ids": [
+            10763
+        ],
+        "id": 4026,
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_name": "CBS News Sunday Morning",
+        "overview": "The sparkling notes of a trumpet fanfare and the familiar logo of the sun alert viewers that it's time for CBS's Sunday morning staple. Journalist Jane Pauley helms the show, taking over hosting duties from Charles Osgood, who spent 22 years on the job. A morning talk show, this program airs at a different pace and focuses much of its attention on the performing arts. After a quick update of the day's news and national weather, correspondents offer longer-length segments on a variety of topics, from architecture to ballet to music to pop culture to politics.",
+        "popularity": 3510.218,
+        "poster_path": "/4AL2bjz8IROQi05frEaPHr9A7pr.jpg",
+        "first_air_date": "1979-01-28",
+        "name": "CBS News Sunday Morning",
+        "vote_average": 6.188,
+        "vote_count": 16
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rj3jBAZwPiOgkwAy1205MAgLahj.jpg",
+        "genre_ids": [
+            10766
+        ],
+        "id": 81329,
+        "origin_country": [
+            "FR"
+        ],
+        "original_language": "fr",
+        "original_name": "Un si grand soleil",
+        "overview": "Claire is surprised when she gets arrested for the murder of her childhood friend after she returns to Montpellier.",
+        "popularity": 3302.457,
+        "poster_path": "/t6jVlbPMtZOJoAOfeoR4yQmnjXM.jpg",
+        "first_air_date": "2018-08-27",
+        "name": "Chronicles of the Sun",
+        "vote_average": 7.141,
+        "vote_count": 78
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/4oAB2qs7lwfhw1BaUmp7xkryM7E.jpg",
+        "genre_ids": [
+            80
+        ],
+        "id": 41149,
+        "origin_country": [
+            "DE"
+        ],
+        "original_language": "de",
+        "original_name": "Die Rosenheim-Cops",
+        "overview": "",
+        "popularity": 3276.733,
+        "poster_path": "/kAhi0xY6gIEMvHtmChC44pBwOWG.jpg",
+        "first_air_date": "2002-01-09",
+        "name": "Die Rosenheim-Cops",
+        "vote_average": 6.565,
+        "vote_count": 23
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/h8tzpd1pqyKCu5V4lw3eUiO6L9Y.jpg",
+        "genre_ids": [
+            16,
+            35,
+            10751
+        ],
+        "id": 65763,
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_name": "New Looney Tunes",
+        "overview": "Wabbit is an animated series starring Bugs Bunny. The series features many other Looney Tunes characters including Wile E. Coyote, Yosemite Sam, and the Tasmanian Devil.",
+        "popularity": 3249.576,
+        "poster_path": "/prMr01vuNZc42SAuaa1Kzyh9iyd.jpg",
+        "first_air_date": "2015-09-21",
+        "name": "New Looney Tunes",
+        "vote_average": 7.06,
+        "vote_count": 142
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/ddFB0J0b3yKIyvlAnbAHWGWxnCJ.jpg",
+        "genre_ids": [
+            10764
+        ],
+        "id": 241492,
+        "origin_country": [
+            "BR"
+        ],
+        "original_language": "pt",
+        "original_name": "Estrela da Casa",
+        "overview": "",
+        "popularity": 3208.835,
+        "poster_path": "/i8HkMKyuZ13i8xpMW3ZmdTXYOL0.jpg",
+        "first_air_date": "2024-08-13",
+        "name": "Estrela da Casa",
+        "vote_average": 2,
+        "vote_count": 2
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/1gZrOa2E9DOohEvSLLBJqus2zGu.jpg",
+        "genre_ids": [
+            80,
+            18,
+            9648
+        ],
+        "id": 15226,
+        "origin_country": [
+            "IN"
+        ],
+        "original_language": "hi",
+        "original_name": "C.I.D.",
+        "overview": "ACP Pradyuman, Daya and Abhijeet are an elite trio of officers who work for the CID. They seek the help of professional forensic expert Dr Salunkhe and solve various criminal cases.",
+        "popularity": 3186.524,
+        "poster_path": "/zNCpkoHN3LSK9yi1C2M0Z1rOv6J.jpg",
+        "first_air_date": "1998-01-21",
+        "name": "C.I.D.",
+        "vote_average": 6,
+        "vote_count": 19
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/z90GEQHD9pKqfJwW4Y8tamBWAqa.jpg",
+        "genre_ids": [
+            10764
+        ],
+        "id": 45956,
+        "origin_country": [
+            "GB"
+        ],
+        "original_language": "en",
+        "original_name": "Celebrity Big Brother",
+        "overview": "Celebrity Big Brother is a British reality television game show in which a number of celebrity contestants live in an isolated house trying to avoid being evicted by the public with the aim of winning a large cash prize being donated to the winner's nominated charity at the end of the run.",
+        "popularity": 3132.217,
+        "poster_path": "/729Z7o1ycoEzk9fcPHn3iuteVfF.jpg",
+        "first_air_date": "2001-03-09",
+        "name": "Celebrity Big Brother",
+        "vote_average": 4.653,
+        "vote_count": 36
+    }
+]
